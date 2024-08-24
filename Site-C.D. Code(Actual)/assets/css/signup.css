@@ -1,0 +1,166 @@
+.login-btn {
+  gap: 15px;
+  display: flex;
+}
+
+@media (min-width: 300px) {
+  #btn-contacto-1, #btn-contacto-4 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #btn-contacto-1, #btn-contacto-4 {
+    display: flex;
+  }
+}
+
+#btn-contacto-1 {
+  background-color: #05ff00;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: 2px solid #05ff00;
+  border-radius: 100px;
+}
+
+#btn-contacto-1:hover {
+  background-color: #ffffff;
+  color: #05ff00;
+  border: 2px solid #05ff00;
+}
+
+@media (min-width: 300px) {
+  #btn-contacto-4 {
+    background-color: #ffffff;
+    border-radius: 100px;
+    color: #05ff00;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+
+@media (min-width: 992px) {
+  #btn-contacto-4 {
+    background-color: #ffffff;
+    border-radius: 100px;
+    color: #05ff00;
+    font-weight: 600;
+    border: 2px solid #05ff00;
+    letter-spacing: 1px;
+  }
+}
+
+#btn-contacto-4:hover {
+  background-color: #05ff00;
+  color: #ffffff;
+}
+
+#btn-contacto-3 {
+  background-color: #05ff00;
+  border-radius: 100px;
+  color: #ffffff;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+  letter-spacing: 1px;
+}
+
+#btn-contacto-3:hover {
+  background-color: #ffffff;
+  color: #02ff2a;
+}
+
+#btn-contacto-5 {
+  background-color: #ffffff;
+  border-radius: 100px;
+  color: #02ff2a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#btn-contacto-5:hover {
+  background-color: #05ff00;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+@media (min-width: 300px) {
+  .btn-toggler {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+.bg-login {
+  background-image: url("../../assets/img/HeroCDC1.jpg");
+  border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  height: 420px;
+  /*width: 1000px;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-login-section {
+  background-color: rgba(201,201,201,0.28);
+}
+
+.tela-cadastro {
+  background-color: #000000;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  height: 400px;
+}
+
+.img-login {
+  width: 130px;
+}
+
+.texto-login {
+  text-align: center;
+  line-height: 6px;
+  margin-top: 30px;
+}
+
+.btn-login {
+  background-color: #05ff00;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 114px;
+  margin-top: 15px;
+}
+
+.btn-login:hover {
+  background-color: #ffffff;
+  color: #05ff00;
+}
+
+.mg-div {
+  margin-right: 40px;
+}
+
+.btn-signup {
+  background-color: #ffffff;
+  font-weight: 600;
+  width: 130px;
+  margin-left: 100px;
+  box-shadow: 0px 0px 2px #000000;
+}
+
+.btn-signup:hover {
+  background-color: #05ff00;
+  color: #ffffff;
+}
+
+.conf-senha-signup {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 25px;
+}
+
+.conf-senha-signup::placeholder {
+  color: rgba(255,255,255,0.69);
+}
+
